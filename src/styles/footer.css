@@ -1,0 +1,25 @@
+footer {
+  display: flex !important; 
+  flex-flow: row wrap;
+  height: 5rem;
+  background-color: #343A40;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer_contacts {
+  display: flex;
+  flex-flow: column wrap;
+}
+.footer_number {
+  text-decoration: none;
+  color: white;
+}
+.footer_mail {
+  text-decoration: none;
+  color: white;
+}
+.name_of_company {
+  margin: 0 30% 0 10%;
+}

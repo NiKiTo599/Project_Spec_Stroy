@@ -1,4 +1,5 @@
 import { Link } from "gatsby"
+import { Button } from 'react-bootstrap'
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -12,7 +13,7 @@ const Header = () => (
         +7 <b className="number__bold">921 921 10 65</b>
       </Link>
     </div>
-    <Link className="header__button_for_call">Заказать звонок</Link>
+    <Button variant="outline-secondary">Заказать звонок</Button>
   </header>
 )
 
