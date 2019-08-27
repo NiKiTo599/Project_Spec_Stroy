@@ -25,7 +25,7 @@ class Navigation extends React.Component {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home">Объекты</Nav.Link>
+            <Nav.Link href="projects">Объекты</Nav.Link>
             <Nav.Link href="#link">Клиенты</Nav.Link>
             <Nav.Link href="#link">Аттестаты</Nav.Link>
             <Nav.Link href="#link">Вакансии</Nav.Link>

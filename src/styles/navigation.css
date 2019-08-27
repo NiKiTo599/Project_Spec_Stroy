@@ -42,3 +42,7 @@
 .nav-link {
   color: white!important;
 }
+.rotate {
+  transform: rotate(90deg);
+  height: 25.8rem;;
+}
