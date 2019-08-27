@@ -11,8 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import Navigation from "./Navigation";
-import Footer from "./footer";
+import Navigation from "./Navigation"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -31,12 +31,12 @@ const Layout = ({ children }) => {
       <Navigation />
       <div
         style={{
-          width: '100%',
+          width: "100%",
         }}
       >
         <main>{children}</main>
-        <Footer />
       </div>
+      <Footer />
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"

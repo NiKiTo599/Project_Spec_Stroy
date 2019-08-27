@@ -6,37 +6,37 @@
   background-color: #f3f3f3;
 }
 
-.carou
+.jumbotron {
+  background-color: #e9ecef94 !important;
+  width: 30rem;
+  color: #545454 !important;
+}
 
-.gallery_title{
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: 800;
-  padding: 60px;
-  background-color: #f3f3f3;
-  border-top: 1px solid #dee2e6;
-  margin-top: 120px;
+.jumbotron > h2 {
+  font-size: 2.5rem;
 }
 
 .w-100 {
   width: auto !important;
   min-height: -webkit-fill-available;
+  height: 1092px;
 }
 
 .carousel-inner {
-  height: 80vh !important;
+  height: 40rem !important;
 }
 
 .carousel-item.active, .carousel-item-next, .carousel-item-prev {
   display: flex !important;
-  justify-content: center !important;
+  justify-content:  center !important;
+  /* align-items: flex-start; */
 }
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #ef454a;
-  border: 8px solid #ef454a;
+  background-color: #545454;
+  border: 8px solid #545454;
   border-radius: 25px;
   width: 40px;
   height: 40px;
@@ -48,22 +48,29 @@
 }
 
 .carousel-indicators .active {
-  background-color: #ef454a;
+  background-color: #545454;
 }
 
 .carousel-caption {
   left: 25%;
+  bottom: 500px !important;
   margin-bottom: 20px;
   width: 50%;
+  color: #545454!important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
       width: 100% !important;
   } 
 
+  .jumbotron {
+    width: 100%;
+    height: 38rem;
+    bottom: 0;
+  }
   .carousel-inner {
-      height: 100vh;
+      height: 40rem;
   }
 
   .carousel-control-prev, 
@@ -72,16 +79,25 @@
   }
 
   .carousel-caption {
-      left: 0;
+      left: 60px !important;
+      right: 0 !important;
+      top: 0;
       margin-bottom: 20px;
-      width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  .logo_text {
-      font-size: 24px;
-      margin-top: 4px;
+      width: 90%;
+      height: 90%;
   }
 
+  .jumbotron > h2 {
+    font-size: 5.5rem;
+  }
+
+  .jumbotron > p {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    width: 15rem;
+    height: 6rem;
+    font-size: 1.5rem !important;
+  }
 }

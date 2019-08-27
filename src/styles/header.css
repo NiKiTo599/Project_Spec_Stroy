@@ -12,14 +12,15 @@ html {
 
 .header {
   display: flex;
-  width: 86rem;
+  width: 80%;
   justify-content: space-between;
   align-items: center;
 }
 
 .header__logo {
   margin-left: 1rem;
-  height: 4rem;
+  margin-bottom: 0;
+  height: 5rem;
 }
 
 .header__contact_info {
@@ -40,7 +41,6 @@ html {
 
 .number__bold {
   color: rgba(52, 73, 93, 0.863);
-  border-bottom: 1px solid rgba(52, 73, 93, 0.863);
 }
 
 .header__button_for_call {
@@ -61,4 +61,29 @@ html {
   text-decoration: none;
   -webkit-appearance: none;
   letter-spacing: 2px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 73rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-flow: column wrap;
+  }
+
+  .header__logo {
+    margin-top: 1rem;
+    height: 15rem;
+  }
+
+  .contact_info__number {
+    display: none;
+  }
+
+  .header > .btn {
+    display: none !important;
+  }
 }

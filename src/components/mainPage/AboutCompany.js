@@ -1,63 +1,43 @@
-import React, { useState } from "react"
+import React from "react"
 
-import { Carousel } from "react-bootstrap"
-import "../../styles/carousel.module.css"
+import "../../styles/aboutCompany.css"
 
-function ControlledCarousel() {
-  const [index, setIndex] = useState(0)
-  const [direction, setDirection] = useState(null)
+const AboutCompany = () => (
+  <section className="about-company">
+    <img
+      className="about-company__logo"
+      src={require("../../images/logo_3.png")}
+    />
+    <div className="about-company__container">
+      <h1 className="title-company">Строительная компания СПЕЦСТРОЙ298</h1>
+      <p className="about-company__text">
+        Основными направлениями деятельности ООО «СПЕЦСТРОЙ 298» является
+        выполнение полного комплекса строительно-монтажных работ «под ключ» и
+        комплексная поставка: трубопроводной арматуры; приборов контроля и учета
+        тепловой энергии теплоносителей и других жидких сред металлополимерных
+        труб МПТ; проектирование, изготовление и монтаж индивидуальных тепловых
+        пунктов (ИТП).
+      </p>
+      <p className="about-company__text">
+        Наша цель — найти и сформировать для каждого нашего клиента то
+        уникальное предложение, которое позволит наиболее полно и в кратчайшие
+        сроки удовлетворить его потребности в определенном виде продукции и
+        услуг. Мы работаем как с отечественными, так и зарубежными
+        производителями, ориентируясь при сотрудничестве в первую очередь на
+        качество комплектующих изделий, которые проходят жесточайшую проверку по
+        всем своим эксплуатационным характеристикам.{" "}
+      </p>
+      <p className="about-company__text">
+        Мы предлагаем только те решения, в эффективности которых мы уверенны на
+        100%. Мы предлагаем своим клиентам широкий ассортимент трубопроводной
+        арматуры различных конфигураций и типоразмеров: задвижки, клапаны
+        запорные, затворы обратные, предохранительная и отсечная арматура,
+        детали трубопроводов, регуляторы давления, краны шаровые, фонтанная
+        арматура. Данная продукция может быть укомплектована редукторами,
+        электро- и гидроприводами.
+      </p>
+    </div>
+  </section>
+)
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex)
-    setDirection(e.direction)
-  }
-
-  return (
-    <Carousel
-      as="section"
-      activeIndex={index}
-      direction={direction}
-      onSelect={handleSelect}
-    >
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={require("../../images/carousel_1.jpg")}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={require("../../images/carousel_2.jpg")}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={require("../../images/carousel_3.jpg")}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  )
-}
-
-export default ControlledCarousel
+export default AboutCompany
