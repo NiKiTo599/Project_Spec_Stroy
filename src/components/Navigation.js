@@ -29,7 +29,7 @@ class Navigation extends React.Component {
             <Nav.Link href="#link">Клиенты</Nav.Link>
             <Nav.Link href="#link">Аттестаты</Nav.Link>
             <Nav.Link href="#link">Вакансии</Nav.Link>
-            <Nav.Link href="#link">Контакты</Nav.Link>
+            <Nav.Link href="contacts">Контакты</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

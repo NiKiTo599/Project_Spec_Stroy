@@ -120,3 +120,10 @@
   padding-right: 3rem !important;
   padding-left: 3rem !important;
 }
+
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 2000px !important;
+  }
+}
