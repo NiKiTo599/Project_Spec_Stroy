@@ -29,8 +29,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Navigation />
-      <div
-      >
+      <div style={{ width: "100%" }}>
         <main>{children}</main>
       </div>
       <Footer />

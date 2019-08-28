@@ -65,7 +65,7 @@ html {
 
 @media (max-width: 1024px) {
   body {
-    width: 73rem;
+    width: 100vw;
   }
 }
 
