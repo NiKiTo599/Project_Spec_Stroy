@@ -32,16 +32,23 @@
 }
 
 .navbar-expand-sm {
-  justify-content: center!important;
+  justify-content: center !important;
 }
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
   margin: auto;
   justify-content: space-between;
 }
 .nav-link {
-  color: white!important;
+  color: white !important;
 }
 .rotate {
   transform: rotate(90deg);
-  height: 25.8rem;;
+  height: 25.8rem;
+}
+
+div {
+  box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
 }
