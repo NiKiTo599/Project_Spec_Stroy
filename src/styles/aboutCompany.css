@@ -42,14 +42,14 @@ br {
     height: 15rem;
   }
   .about-company__container > h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .about-company__text {
-    width: 90vw;
-    line-height: 3rem;
+    width: 80vw;
+    line-height: 2rem;
     margin-top: 0.5em;
     margin-bottom: 1em;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }

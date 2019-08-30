@@ -1,3 +1,5 @@
+@viewport { width: device-width;}
+
 footer {
   display: flex !important; 
   flex-flow: row wrap;
