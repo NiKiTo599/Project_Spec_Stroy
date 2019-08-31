@@ -14,11 +14,13 @@
     "gatsby-plugin-sharp": "^2.2.11",
     "gatsby-source-filesystem": "^2.1.9",
     "gatsby-transformer-sharp": "^2.2.6",
+    "jquery": "^3.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.11",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "react-transition-group": "^4.2.2",
     "request": "^2.88.0"
   },
   "devDependencies": {

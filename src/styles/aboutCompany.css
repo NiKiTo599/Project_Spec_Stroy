@@ -45,8 +45,12 @@ br {
     font-size: 2rem;
   }
 
+  .about-company {
+    margin: 0;
+  }
+
   .about-company__text {
-    width: 80vw;
+    width: 90vw;
     line-height: 2rem;
     margin-top: 0.5em;
     margin-bottom: 1em;

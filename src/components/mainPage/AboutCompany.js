@@ -6,7 +6,7 @@ const AboutCompany = () => (
   <section className="about-company">
     <img
       className="about-company__logo"
-      src={require("../../images/logo_3.png")}
+      src={require("../../images/mainlogo.png")}
     />
     <div className="about-company__container">
       <h1 className="title-company">Строительная компания СПЕЦСТРОЙ298</h1>

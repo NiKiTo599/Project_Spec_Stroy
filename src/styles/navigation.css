@@ -9,10 +9,10 @@
     width: 100%;
   }
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .dropdown-item {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -51,4 +51,10 @@ div {
   box-sizing: border-box !important;
   -moz-box-sizing: border-box !important;
   -webkit-box-sizing: border-box !important;
+}
+
+@media (max-width: 375px) {
+  .nav-link {
+    font-size: 3rem;
+  }
 }

@@ -8,7 +8,7 @@ import RequestCall from "./RequestCall";
 const Header = () => (
   <header className="header">
     <Link to="/">
-      <img className="header__logo" src={require("../images/logo_3.png")} />
+      <img className="header__logo" src={require("../images/mainlogo.png")} />
     </Link>
     <div className="header__contact_info">
       <Link to="tel:+79219211065" className="contact_info__number">

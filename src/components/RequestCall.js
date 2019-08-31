@@ -61,8 +61,8 @@ function RequestCall() {
                 placeholder="Введите ваш номер"
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
-              Submit
+            <Button style={{ backgroundColor: "#142986" }} variant="primary" type="submit">
+              Заказать звонок
             </Button>
           </Form>
         </Modal.Body>

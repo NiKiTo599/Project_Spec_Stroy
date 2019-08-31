@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import { Carousel, Jumbotron, Button } from "react-bootstrap"
+import { Carousel, Jumbotron, Button, Alert } from "react-bootstrap"
 
 import "../../styles/carousel.css"
 
@@ -12,7 +12,6 @@ function ControlledCarousel() {
     setIndex(selectedIndex)
     setDirection(e.direction)
   }
-
   return (
     <Carousel
       as="section"
@@ -30,11 +29,11 @@ function ControlledCarousel() {
           <Jumbotron>
             <h2>Труба металлополимерная МПТ</h2>
             <p>Весь спектр услуг по металлополимерным трубам МПТ.</p>
-            <Button variant="primary">Узнайте больше</Button>
+            <Button style={{ backgroundColor: "#142986" }} variant="primary">Узнайте больше</Button>
           </Jumbotron>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+    <Carousel.Item>
         <img
           className="d-block w-100"
           src={require("../../images/carousel_2.jpg")}
@@ -44,7 +43,7 @@ function ControlledCarousel() {
           <Jumbotron>
             <h2>Труба металлополимерная МПТ</h2>
             <p>Весь спектр услуг по металлополимерным трубам МПТ.</p>
-            <Button variant="primary">Узнайте больше</Button>
+            <Button style={{ backgroundColor: "#142986" }} variant="primary">Узнайте больше</Button>
           </Jumbotron>
         </Carousel.Caption>
       </Carousel.Item>
@@ -58,7 +57,7 @@ function ControlledCarousel() {
           <Jumbotron>
             <h2>Труба металлополимерная МПТ</h2>
             <p>Весь спектр услуг по металлополимерным трубам МПТ.</p>
-            <Button variant="primary">Узнайте больше</Button>
+            <Button style={{ backgroundColor: "#142986" }} variant="primary">Узнайте больше</Button>
           </Jumbotron>
         </Carousel.Caption>
       </Carousel.Item>

@@ -11,10 +11,15 @@ html {
 }
 
 .header {
+  z-index: 10;
   display: flex;
   width: 80%;
   justify-content: space-between;
   align-items: center;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .header__logo {
@@ -76,6 +81,9 @@ html {
 }
 
 @media (max-width: 767px) {
+  .fixed {
+    position: static;
+  }
   .header {
     flex-flow: column wrap;
   }
@@ -92,4 +100,11 @@ html {
   .header > .btn {
     display: none !important;
   }
+  .main_content {
+    margin-top: 0 !important;
+  }
+}
+
+.main_content {
+  margin-top: 8rem;
 }
