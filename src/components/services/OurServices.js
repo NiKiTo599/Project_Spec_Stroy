@@ -2,8 +2,9 @@ import React from "react"
 import { ListGroup } from "react-bootstrap"
 
 const CardOfContacts = () => (
-  <ListGroup>
-    <ListGroup.Item variant="primary">Землянные работы</ListGroup.Item>
+  <>
+  <ListGroup className='col-12 col-xl-6 col-md-12'>
+    <ListGroup.Item action variant="primary">Землянные работы</ListGroup.Item>
     <ListGroup.Item action variant="primary">
       Возведение несущих и ограждающих конструкций зданий и сооружений (полный
       комплекс общестроительных работ)
@@ -29,6 +30,10 @@ const CardOfContacts = () => (
     <ListGroup.Item action variant="primary">
       Пусконаладочные работы
     </ListGroup.Item>
+  </ListGroup>
+  <img className='col-12 col-xl-6 col-md-12' src={require('../../images/services/service_1.jpg')}/>
+  <img className='col-12 col-xl-6 col-md-12' src={require('../../images/services/service_2.jpg')}/>
+  <ListGroup className='col-12 col-xl-6 col-md-12'>
     <ListGroup.Item action variant="primary">
       Контроль качества работ
     </ListGroup.Item>
@@ -58,6 +63,7 @@ const CardOfContacts = () => (
       Ввод в эксплуатацию
     </ListGroup.Item>
   </ListGroup>
+  </>
 )
 
 export default CardOfContacts

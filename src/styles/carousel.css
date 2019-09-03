@@ -6,14 +6,28 @@
   background-color: #f3f3f3;
 }
 
-.jumbotron {
-  background-color: #e9ecef94 !important;
-  width: 30rem;
-  color: #545454 !important;
+.list_for_services {
+  list-style: none;
+  font-weight: 600;
 }
 
-.jumbotron > h2 {
-  font-size: 2.5rem;
+.list_for_services > li{
+  padding-left: 40px;
+  position: relative;
+  margin: 10px;
+  text-align: justify;
+  font-size: 1.5rem;
+  color: #142986;
+  font-style: italic;
+}
+
+.list_for_services > li::before {
+  content: "✔";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: blue !important;
+  font-size: 1.5rem;
 }
 
 .w-100 {
@@ -26,12 +40,13 @@
   height: 40rem !important;
 }
 
-.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
   display: flex !important;
-  justify-content:  center !important;
+  justify-content: center !important;
   /* align-items: flex-start; */
 }
-
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -42,7 +57,7 @@
   height: 40px;
 }
 
-.carousel-control-prev, 
+.carousel-control-prev,
 .carousel-control-next {
   width: 5%;
 }
@@ -56,52 +71,16 @@
   bottom: 500px !important;
   margin-bottom: 20px;
   width: 50%;
-  color: #545454!important;
+  color: #545454 !important;
+  background-color: #545454ab !important;
 }
 
 @media (max-width: 767px) {
   .container {
-      width: 100% !important;
-  } 
-
-  .jumbotron {
-    width: 90%;
-    height: 90%;;
-    bottom: 0;
-    margin: 0 auto;
-  }
-  .carousel-inner {
-    height: 20rem !important;
-  }
-  .carousel-item {
-    margin: 0 auto;
-  }
-  .carousel-control-prev, 
-  .carousel-control-next {
-      display: none;
+    width: 100% !important;
   }
 
-  .carousel-caption {
-      width: 70%;
-      height: 23rem;
-      bottom: 733px !important;
-  }
-
-  .jumbotron > h2 {
-    font-size: 1.5rem;
-  }
-
-  .jumbotron > p {
-    font-size: 1rem;
-  }
-
-  .btn {
-    width: 8rem;
-    height: 4rem;
-    font-size: 0.5rem !important;
-  }
-
-  .carousel-indicators {
-    display: none !important;
+  .carousel {
+    display: none;
   }
 }

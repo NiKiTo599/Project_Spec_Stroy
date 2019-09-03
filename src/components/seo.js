@@ -8,64 +8,31 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
-
+function SEO({ lang, meta, title }) {
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={"СПЕЦСТРОЙ298"}
+      titleTemplate={`%s | Строительная компания`}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: `О компании Основными направлениями деятельности ООО «СПЕЦСТРОЙ 298» является выполнение полного комплекса строительно-монтажных работ «под ключ» и комплексная поставка: трубопроводной арматуры; приборов контроля и учета тепловой энергии теплоносителей и других жидких сред металлополимерных труб МПТ; проектирование, изготовление и монтаж индивидуальных тепловых пунктов (ИТП). Наша цель — найти и сформировать дл`,
         },
         {
           property: `og:title`,
-          content: title,
+          content: "СПЕЦСТРОЙ298",
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: `О компании Основными направлениями деятельности ООО «СПЕЦСТРОЙ 298» является выполнение полного комплекса строительно-монтажных работ «под ключ» и комплексная поставка: трубопроводной арматуры; приборов контроля и учета тепловой энергии теплоносителей и других жидких сред металлополимерных труб МПТ; проектирование, изготовление и монтаж индивидуальных тепловых пунктов (ИТП). Наша цель — найти и сформировать дл`,
         },
         {
           property: `og:type`,
           content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
         },
       ].concat(meta)}
     />

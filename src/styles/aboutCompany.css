@@ -17,16 +17,16 @@
 }
 
 .about-company__text {
-  width: 40rem;
+  width: 60rem;
   text-align: justify;
-  line-height: 1.5rem;
+  line-height: 3rem;
   margin-top: 0.5em;
   margin-bottom: 1em;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 .about-company__logo {
-  height: 10rem;
+  height: 15rem;
   margin-right: 3rem;
 }
 
@@ -34,12 +34,24 @@ br {
   margin: 1rem;
 }
 
+@media (max-width: 1160px) {
+  .about-company__text {
+    width: 80vw;
+  }
+}
+
 @media (max-width: 767px) {
+  .header__logo {
+    margin-left: 0;
+  }
   .about-company {
+    display: flex;
     flex-flow: column wrap;
+    align-items: center;
   }
   .about-company__logo {
-    height: 15rem;
+    height: 10rem;
+    margin-right: 0;
   }
   .about-company__container > h1 {
     font-size: 2rem;
@@ -49,11 +61,22 @@ br {
     margin: 0;
   }
 
+  .title-company {
+    font-size: 1.7rem;
+    width: 90vw;
+  }
+
   .about-company__text {
     width: 90vw;
     line-height: 2rem;
     margin-top: 0.5em;
     margin-bottom: 1em;
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .about-company__logo {
+    height: 6rem;;
   }
 }

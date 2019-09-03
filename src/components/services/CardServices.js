@@ -2,9 +2,9 @@ import React from "react"
 import { Card } from "react-bootstrap"
 
 const CardServices = () => (
-  <Card bg="primary" text="white" style={{ width: "18rem" }}>
+  <Card bg="primary" text="white" style={{ width: "80vw", marginTop: '2rem' }}>
     <Card.Header>Наши компетенции</Card.Header>
-    <Card.Body>
+    <Card.Body style={{ backgroundColor: '#545454b0'}}>
       <Card.Text>
         ООО «СПЕЦСТРОЙ 298» состоит в Ассоциации строителей «ЭкспертСтрой»,
         имеет допуск к выполнению работ, которые оказывают влияние на
