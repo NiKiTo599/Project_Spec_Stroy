@@ -5,16 +5,18 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import "../styles/navigation.css"
 
 class Navigation extends React.Component {
+
   render() {
+
     return (
       <Navbar expand="md" bg="dark" expanded="true">
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/services">Услуги</Nav.Link>
-            <Nav.Link href="/projects">Объекты</Nav.Link>
-            <Nav.Link href="#link">Клиенты</Nav.Link>
-            <Nav.Link href="#link">Аттестаты</Nav.Link>
-            <Nav.Link href="#link">Вакансии</Nav.Link>
+          <Nav className="mr-auto" onClick={this.changeColor}>
+            <Nav.Link className='active__link' href="/services">Услуги</Nav.Link>
+            <Nav.Link className='active__link' href="/projects">Объекты</Nav.Link>
+            <Nav.Link className='active__link' href="#link">Клиенты</Nav.Link>
+            <Nav.Link className='active__link' href="#link">Аттестаты</Nav.Link>
+            <Nav.Link className='active__link' href="#link">Вакансии</Nav.Link>
             <NavDropdown
               title="Трубопроводная арматура"
               id="collasible-nav-dropdown"
@@ -34,7 +36,7 @@ class Navigation extends React.Component {
                 Проектирование ИТП
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/contacts">Контакты</Nav.Link>
+            <Nav.Link className='active__link' href="/contacts">Контакты</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

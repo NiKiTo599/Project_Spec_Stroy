@@ -10,23 +10,23 @@ const CivilWorks = () => (
   <Layout>
     <SEO title="Home" />
     <section className="container">
-      <div className="row contacts_row">
+      <div className="row contacts_row justify-content-center">
         <img
-          className="col-xl-6 image_services"
+          className="col-xl-6 col-lg-12 col-md-12 image_services"
           src={require("../images/services/main_service.jpg")}
         />
-        <div className="col-xl-6">
+        <div className="col-xl-6 col-lg-12 col-md-12">
           <img
             className="about-company__logo"
             src={require("../images/mainlogo.png")}
           />
-          <p style={{ fontWeight: "700" }} className="about-company__text">
+          <p style={{ fontWeight: "700" }} className="about-company__text_2">
             Сегодня «СПЕЦСТРОЙ 298» — это высококлассная команда профессионалов,
             обладающая уникальным опытом реализации самых сложных задач,
             предлагающая комплексные решения в реализации проектов «под ключ»
             (генеральный подряд).
           </p>
-          <p className="about-company__text">
+          <p className="about-company__text_2">
             Ключевая компетенция компании «СПЕЦСТРОЙ 298» – строительство
             промышленных и жилых объектов, объектов инфраструктуры «под ключ». В
             нашей зоне ответственности могут быть: полный комплекс
@@ -36,7 +36,7 @@ const CivilWorks = () => (
             монтаж трубопроводов пара и горячей воды, технологических
             трубопроводов, монтаж металлоконструкций любой сложности.
           </p>
-          <p className="about-company__text">
+          <p className="about-company__text_2">
             Мы готовы выполнить полный спектр работ в области промышленного
             строительства. Обладая необходимым производственным потенциалом и
             используя современные технологии, мы производим общестроительные

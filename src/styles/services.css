@@ -1,0 +1,14 @@
+.about-company__text_2 {
+  width: 40rem;
+  text-align: justify;
+  line-height: 2rem;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .about-company__text_2 {
+    width: 100%;
+  }
+}

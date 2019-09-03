@@ -5,14 +5,14 @@ import "../../styles/aboutCompany.css"
 
 const Trybi = () => (
   <section
-    className="justify-content-center"
+    className="container"
     style={{
       backgroundImage:
         "url(http://theme-fusion.com/avadaxml/wp-content/uploads/2013/10/slide_4.jpg)",
       width: "100vw",
     }}
   >
-    <div className="row contacts_row align-items-center">
+    <div className="row contacts_row justify-content-center align-items-center">
       <div className="col-xl-6">
         <h2 style={{ color: "#142986" }}>
           Дистрибьютор энергосберегающего оборудования

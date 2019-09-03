@@ -11,7 +11,7 @@ const CivilWorks = () => (
   <Layout>
     <SEO title="Home" />
     <section className="container contacts__container">
-      <div className="row contacts_row">
+      <div className="row contacts_row justify-content-center">
         <div className='col-xl-2'></div>
         <CardOfContacts />
         <Feedback />

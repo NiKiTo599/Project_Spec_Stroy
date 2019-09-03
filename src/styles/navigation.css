@@ -38,6 +38,14 @@
   }
 }
 
+.nav-link:hover {
+  color: #142986 !important;
+}
+
+/* .active__link {
+  background-color: rgb(107, 107, 107);
+} */
+
 .navbar-expand-sm {
   justify-content: center !important;
 }
