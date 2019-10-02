@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Spinner } from 'react-bootstrap'
 
 import Header from "./header"
 import "./layout.css"
@@ -29,7 +30,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Navigation />
-      <div style={{ minHeight: '75vh', width: "100%" }}>
+      <div style={{ minHeight: "75vh", width: "100%" }}>
         <main>{children}</main>
       </div>
       <Footer />

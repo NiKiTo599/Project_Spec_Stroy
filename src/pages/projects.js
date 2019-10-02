@@ -15,8 +15,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img style={{ opacity: '0.1'}} className="height" src={require("../images/projects/fon.png")} />
-          <p className="title-of-projects">
+          <img
+            style={{ opacity: "0.1" }}
+            className="height"
+            src={require("../images/projects/fon.png")}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Газовая котельная общей тепловой мощностью 24,344 МВт
           </p>
           <p className="know_more">Узнать больше >></p>
@@ -26,8 +30,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img style={{ opacity: '0.1'}} className="height" src={require("../images/projects/fon.png")} />
-          <p className="title-of-projects">
+          <img
+            style={{ opacity: "0.1" }}
+            className="height"
+            src={require("../images/projects/fon.png")}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Техперевооружение котельной АО «Российские космические системы»
           </p>
           <p className="know_more">Узнать больше >></p>
@@ -37,8 +45,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img style={{ opacity: '0.1'}} className="height" src={require("../images/projects/fon.png")} />
-          <p className="title-of-projects">
+          <img
+            style={{ opacity: "0.1" }}
+            className="height"
+            src={require("../images/projects/fon.png")}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Реконструкция котельной с увеличением тепловой производительности до
             14,405 МВт
           </p>
@@ -82,7 +94,9 @@ const Projects = () => (
             className="height"
             src={require("../images/projects/IMG_0237.jpg")}
           />
-          <p className="title-of-projects">Строительство цеха резки листов Котласский ЦБК</p>
+          <p className="title-of-projects">
+            Строительство цеха резки листов Котласский ЦБК
+          </p>
           <p className="know_more">Узнать больше >></p>
         </Link>
 
@@ -91,9 +105,13 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p className="title-of-projects">
-            Строительство Бакового химического Котласский ЦБК
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
+            Строительство «Бакового химического хозяйства
           </p>
           <p className="know_more">Узнать больше >></p>
         </Link>
@@ -102,8 +120,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Строительство завода по производству осажденного мела
           </p>
           <p className="know_more">Узнать больше >></p>
@@ -118,7 +140,8 @@ const Projects = () => (
             src={require("../images/projects/20181116_083426.jpg")}
           />
           <p className="title-of-projects">
-            Капитальный ремонт технологической эстакады №2 АО «Воскресенские Минеральные удобрения»
+            Капитальный ремонт технологической эстакады №2 АО «Воскресенские
+            Минеральные удобрения»
           </p>
           <p className="know_more">Узнать больше >></p>
         </Link>
@@ -127,8 +150,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Монтаж металлоконструкций Узла энергетического блока
           </p>
           <p className="know_more">Узнать больше >></p>
@@ -138,8 +165,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p style={{  color: '#142986' }} className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Монтаж эстакады налива серной кислоты
           </p>
           <p className="know_more">Узнать больше >></p>
@@ -150,8 +181,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p style={{ color: '#142986' }} className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Монтаж и изоляция трубопроводов соленых стоков
           </p>
           <p className="know_more">Узнать больше >></p>
@@ -166,7 +201,9 @@ const Projects = () => (
             src={require("../images/projects/DSC_0692.png")}
           />
           <p className="title-of-projects">Многоквартирный жилой дом с кафе</p>
-          <p className="know_more" style={{ bottom: '430px'}}>Узнать больше >></p>
+          <p className="know_more" style={{ bottom: "430px" }}>
+            Узнать больше >>
+          </p>
         </Link>
         <Link
           state={{ id: 13 }}
@@ -178,30 +215,44 @@ const Projects = () => (
             Жилые дома №23,24 со встроено- пристроенными помещениями
             общественного назначения и подземным гаражом-стоянкой
           </p>
-          <p className="know_more" style={{ bottom: '430px'}}>Узнать больше >></p>
+          <p className="know_more" style={{ bottom: "430px" }}>
+            Узнать больше >>
+          </p>
         </Link>
         <Link
           state={{ id: 14 }}
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p style={{ color: '#142986' }} className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Реконструкция жилого дома № 127 по ул. К. Либкнехта с надстройкой
             дополнительных жилых этажей
           </p>
-          <p className="know_more" style={{ bottom: '430px'}}>Узнать больше >></p>
+          <p className="know_more" style={{ bottom: "430px" }}>
+            Узнать больше >>
+          </p>
         </Link>
         <Link
           state={{ id: 15 }}
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p style={{ color: '#142986' }} className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Производство упаковки на основе флексографической и офсетной печати
           </p>
-          <p className="know_more" style={{ bottom: '430px'}}>Узнать больше >></p>
+          <p className="know_more" style={{ bottom: "430px" }}>
+            Узнать больше >>
+          </p>
         </Link>
         <Link
           state={{ id: 16 }}
@@ -223,8 +274,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Магазин хозтоваров с объектами обслуживания с организацией
             торгово-офисной пристройки
           </p>
@@ -264,8 +319,12 @@ const Projects = () => (
           to={`/more-about-project`}
           className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 projets__item"
         >
-          <img className="height" src={require("../images/projects/fon.png")} style={{ opacity: '0.1'}} />
-          <p className="title-of-projects">
+          <img
+            className="height"
+            src={require("../images/projects/fon.png")}
+            style={{ opacity: "0.1" }}
+          />
+          <p style={{ color: "#142986" }} className="title-of-projects">
             Реконструкция имущественного комплекса ООО "Трайпл"
           </p>
           <p className="know_more">Узнать больше >></p>

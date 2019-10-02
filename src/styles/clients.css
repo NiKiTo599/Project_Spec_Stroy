@@ -1,0 +1,37 @@
+.clients__logo {
+  max-width: 10rem;
+}
+
+.arrow::before {
+  content: "";
+  width: 100%;
+  background: url(../images/clients/arrow-black.svg) no-repeat center -21px;
+  height: 10px;
+  display: block;
+}
+.arrow {
+  color: #343434;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.client {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.client:hover .arrow {
+  color: #142986;
+}
+
+.client:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}

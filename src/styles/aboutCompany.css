@@ -25,6 +25,19 @@
   font-size: 1.5rem;
 }
 
+.about-company__list {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  list-style: none;
+  width: 60rem;
+}
+
+.about-company__list li::before {
+  content: "—";
+  position: relative;
+  left: -5px;
+}
+
 .about-company__logo {
   height: 15rem;
   margin-right: 3rem;
@@ -36,6 +49,10 @@ br {
 
 @media (max-width: 1160px) {
   .about-company__text {
+    width: 80vw;
+  }
+
+  .about-company__list {
     width: 80vw;
   }
 }
@@ -73,10 +90,16 @@ br {
     margin-bottom: 1em;
     font-size: 1.5rem;
   }
+  
+  .about-company__list {
+    width: 90vw;
+    padding-left: 0;
+    margin: 0;
+  }
 }
 
 @media (max-width: 360px) {
   .about-company__logo {
-    height: 6rem;;
+    height: 6rem;
   }
 }

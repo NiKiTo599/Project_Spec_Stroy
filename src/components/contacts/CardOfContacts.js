@@ -7,7 +7,7 @@ const CardOfContacts = () => (
       <Card.Title style={{ color: '#142986'}} className='icon_phone'>Контакты</Card.Title>
       <Card.Subtitle className="mb-2 text-muted">Телефон:</Card.Subtitle>
       <Card.Text>+7 921 921 10 65</Card.Text>
-      <Card.Subtitle className="mb-2 text-muted">Email:</Card.Subtitle>
+      <Card.Subtitle style={{ marginTop: '1rem'}} className="mb-2 text-muted">Email:</Card.Subtitle>
       <Card.Text>s-stroy298@mail.ru</Card.Text>
       <Card.Title style={{ color: '#142986', marginTop: '4rem'}} className='icon_location'>Адрес</Card.Title>
       <Card.Text>Москва, Ленинский проспект дом 42</Card.Text>

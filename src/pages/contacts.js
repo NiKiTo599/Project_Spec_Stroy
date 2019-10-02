@@ -7,7 +7,7 @@ import CardOfContacts from "../components/contacts/CardOfContacts"
 import Feedback from "../components/contacts/Feedback"
 import '../styles/contacts.css'
 
-const CivilWorks = () => (
+const Contacts = () => (
   <Layout>
     <SEO title="Home" />
     <section className="container contacts__container">
@@ -20,4 +20,4 @@ const CivilWorks = () => (
   </Layout>
 )
 
-export default CivilWorks
+export default Contacts

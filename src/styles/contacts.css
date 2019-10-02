@@ -2,6 +2,10 @@
   min-height: 75vh;
 }
 
+.container {
+  background-color: rgb(153, 150, 150);
+}
+
 .icon_phone {
   background-image: url('../images/contactsphone.png');
   background-repeat: no-repeat;
